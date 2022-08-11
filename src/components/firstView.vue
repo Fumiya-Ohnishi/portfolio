@@ -30,6 +30,9 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    @media screen and (max-width:960px) {
+      background-attachment: unset;
+    }
     &::before{
       content: '';
       /* ↓暗いオーバーレイを半透明で配置 */

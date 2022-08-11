@@ -26,6 +26,13 @@
             <p class="work-item__txt">HTML / CSS</p>
           </li>
           <li class="work-item">
+            <router-link :to="{ name:'work', params: {id: '9' }}">
+              <img src="../assets/img-work-09.jpg" alt="demo9">
+            </router-link>
+            <p class="work-item__ttl">demo4-オセロ</p>
+            <p class="work-item__txt">HTML / CSS / vue2 / JavaScript</p>
+          </li>
+          <li class="work-item">
             <router-link :to="{ name:'work', params: {id: '4' }}">
               <img src="../assets/img-work-04.png" alt="チーム開発作品">
             </router-link>
