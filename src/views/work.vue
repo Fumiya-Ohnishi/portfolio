@@ -123,11 +123,18 @@ export default{
             coment: 'こちらは、WordPressを使用し作成したものになります。こちらでは、ブログ記事の作成もできます。'
           },
           {
-            title: 'demo2',
+            title: 'ブログ',
             url: 'https://www.fumiyaohnishi.com/',
             img: require('../assets/img-work-08.jpeg'),
             skill: 'WordPress',
             coment: 'WordPressを使用し作成したものになります。こちらは、ブログメインのページになっております。フッター部分にTwitterを表示されるようにしております。'
+          },
+          {
+            title: 'オセロ',
+            url: 'https://othello-game1.herokuapp.com/',
+            img: require('../assets/img-work-09.jpg'),
+            skill: 'HTML / CSS / vue2 / JavaScript',
+            coment: 'オセロを作成いたしました。ぜひ遊んでみてください。'
           }
         ]
       }
