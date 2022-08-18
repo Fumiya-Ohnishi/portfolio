@@ -88,9 +88,9 @@
 
 <style lang="scss">
   .skill{
+    position: relative;
     padding-bottom: 64px;
     text-align: center;
-    background: #000;
     &__ttl{
       display: inline-block;
       font-size: 3.6rem;

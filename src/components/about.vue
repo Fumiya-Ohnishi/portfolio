@@ -36,8 +36,8 @@ export default {
 <style lang="scss">
   .about{
     padding-bottom: 64px;
-    background: #000;
     text-align: center;
+    z-index: -99;
     &__ttl{
       display: inline-block;
       font-size: 3.6rem;

@@ -1,6 +1,6 @@
 <template>
   <div class="work-detail">
-    <!-- {{ this.$route.params.id }} -->
+
     <div class="work-detail-innre">
 
       <h2 class="work-detail__ttl">実績詳細ページ</h2>
@@ -21,12 +21,15 @@
   .work-detail{
     width: 100vw;
     height: 100vh;
-    background: #000;
 
     &-innre{
       width: 60%;
       height: 100%;
       margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
     }
 
     &__ttl{
@@ -63,6 +66,23 @@
       color: #fff;
     }
   }
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 </style>
 
 <script>

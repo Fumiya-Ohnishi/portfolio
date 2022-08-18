@@ -87,8 +87,8 @@ export default{
 
 <style lang="scss">
   .work{
+    position: relative;
     padding-bottom: 64px;
-    background: #000;
     text-align: center;
     &__ttl{
       display: inline-block;
@@ -125,4 +125,5 @@ export default{
       }
     }
   }
+
 </style>

@@ -6,9 +6,11 @@ import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import css from './assets/css/reset.css'
+import VueParticles from 'vue-particles'
 
 Vue.config.productionTip = false
 Vue.use(VueAxios, axios)
+Vue.use(VueParticles)
 
 /* eslint-disable no-new */
 new Vue({
